@@ -12,7 +12,8 @@ router.get('/:name',async (req,res)=>{
 router.post('/add',async (req,res)=>{
     const{name,info,history,geography,culture}=req.body;
     console.log(req.body);
-    await addCountry(name,info,history,geography,culture)
+    let response =await addCountry(name,info,history,geography,culture)
+    res.send(response)
 })
 
 export default router

@@ -9,22 +9,22 @@ const Schema = {
     info:{
         type:String,
         required:true,
-        unique:true
+        // unique:true
     },
     history:{
         type:String,
         required:true,
-        unique:true
+        // unique:true
     },
     geography:{
         type:String,
         required:true,
-        unique:true
+        // unique:true
     },
     culture:{
         type:String,
         required:true,
-        unique:true
+        // unique:true
     }
 }
 
